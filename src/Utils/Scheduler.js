@@ -14,7 +14,7 @@ export function generateTimetable(subjects, periodsPerDay = 7) {
 
   if (subjectPool.length !== totalSlots) {
     throw new Error(
-      `❌ Subject hours (${subjectPool.length}) must exactly equal days × periods (${totalSlots}).`
+      ` Subject hours (${subjectPool.length}) must exactly equal days × periods (${totalSlots}).`
     );
   }
 

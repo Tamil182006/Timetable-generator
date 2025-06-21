@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { generateTimetable } from '../utils/scheduler';
+import { generateTimetable } from '../utils/Scheduler.js';
 import "../Styles/Generator.css";
 
 const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
@@ -24,7 +24,7 @@ const Generate = () => {
 
   return (
     <div className="container">
-      <h1 className="heading">📅 Generated Timetable</h1>
+      <h1 className="heading"> Generated Timetable</h1>
       <table className="timetable">
         <thead>
           <tr>
@@ -43,7 +43,7 @@ const Generate = () => {
                   {slot
                     ? <>
                         <div>{slot.subject}</div>
-                        <small>👨‍🏫 {slot.teacher}</small>
+                        <small> {slot.teacher}</small>
                       </>
                     : '-'}
                 </td>
@@ -53,7 +53,7 @@ const Generate = () => {
         </tbody>
       </table>
       <button className="button" onClick={() => navigate('/')}>
-        ⬅️ Back to Dashboard
+          Back to Dashboard
       </button>
     </div>
   );
