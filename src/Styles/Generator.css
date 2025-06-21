@@ -1,0 +1,50 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.button {
+  padding: 0.6rem 1.2rem;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.button:hover {
+  background-color: #004fcc;
+}
+
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.timetable th {
+  background-color: #f3f3f3;
+}
+
+.timetable td small {
+  display: block;
+  font-size: 0.8rem;
+  color: #555;
+}
