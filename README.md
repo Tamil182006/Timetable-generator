@@ -13,7 +13,19 @@ A smart and dynamic timetable generator for college departments built with **Rea
 - 💻 Built using React + Custom CSS (no Tailwind)
 - 🧠 Pure JS logic for timetable generation
 
+
 ---
 
-## 📂 Folder Structure
+## 🛠️ How to Run
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/timetable-generator.git
+cd timetable-generator
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the dev server
+npm run dev
 
