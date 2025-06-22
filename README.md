@@ -1,12 +1,19 @@
-# React + Vite
+# 🧠 Timetable Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A smart and dynamic timetable generator for college departments built with **React**. This tool auto-generates a weekly timetable for multiple classes **without any teacher clashes**, even if the same teacher handles multiple classes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📅 Generate a 5-day timetable with custom periods per day
+- 🧑‍🏫 Ensures **no teacher is double-booked** across multiple classes
+- 🔁 Random but balanced subject placement
+- 📊 Fully dynamic subject-hour input
+- 💻 Built using React + Custom CSS (no Tailwind)
+- 🧠 Pure JS logic for timetable generation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Folder Structure
+
